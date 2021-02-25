@@ -1,13 +1,31 @@
+https request/ rest API
+--------------------------------------------------------------------------
+
 GET (Select)
-POST (Insert)
-PUT (Update)
+POST (Insert)-------> Request body/ Payload
+PUT (Update)--------> Request body/ Payload
 DELETE (Delete)
 
 Web services:
+--------------------------------------------------------------------------
 
 2 types
+
 1. SOAP web servies (Simple Object Access Protocol)
 2. RESTful web service (Representational State Transfer)
 
 RESTful web service support all kinds of API in different format like json, text, html.
 SOAP supports only POST 
+
+URL/URI
+---------------------------------------------------------------------------
+https://reqres.in/api/users?page=2
+
+https://reqres.in/api/users?page=2----->URI
+https://reqres.in---------------------->Domain
+/api/users----------------------------->Path Parameter
+page=2--------------------------------->Query Parameter
+
+All together is called URI (Uniform Resource Identifier)
+Seperated path is called URL (Uniforn Resource Locator)
+
