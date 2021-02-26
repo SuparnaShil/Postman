@@ -1,0 +1,32 @@
+1)Install Node.js (from their official site)
+ open the command prompt
+ node -v
+ npm -v
+
+2)Install newman
+ install -g newman
+
+3)Export/Download from postman
+ Manual download from postman
+
+4)Run newman command
+ newman run <<exported json file>>
+ newman run <<shared link of collection>>
+
+5)Install reporter to get report view
+ npm install newman-reporter-html
+
+6)Run with html report
+ newman run <<exported json file>> -r html
+ newman run <<shared link of collection>> -r html
+
+7)Run with proper report formate
+ newman run <<shared link of collection>> -r htmlextra
+
+8)
+
+
+
+
+
+
