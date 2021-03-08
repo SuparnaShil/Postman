@@ -1,0 +1,13 @@
+1) Install NodeJS
+ Donwload link: https://nodejs.org/en/download/​
+ After installation give below command:
+  node --version
+2) npm (comes with node.js)
+ check version: 
+  npm --version
+3) install json-server
+ npm install -g json-server
+4) create info.json file with sample data(json format)
+ Loc: C:\Users\admin\info.json
+5) Run the below command to make your API's up and running.
+ json-server info.json
